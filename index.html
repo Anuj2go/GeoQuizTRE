@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="start-screen" class="card active">
+            <h1>भूगोल (Geography) ऑनलाइन क्विज़</h1>
+            <p>कुल प्रश्न: 40 | सभी प्रश्नों के बाद रिजल्ट और व्याख्या देखें</p>
+            <button id="start-btn" onclick="startQuiz()">क्विज़ शुरू करें</button>
+        </div>
+
+        <div id="quiz-screen" class="card hidden">
+            <div class="quiz-header">
+                <span id="question-number">प्रश्न 1 / 40</span>
+                <span id="score-counter">स्कोर: 0</span>
+            </div>
+            <h2 id="question-text">प्रश्न यहाँ दिखेगा...</h2>
+            <div id="options-container" class="options-grid"></div>
+            <div id="explanation-box" class="explanation hidden"></div>
+            <button id="next-btn" class="hidden" onclick="nextQuestion()">अगला प्रश्न</button>
+        </div>
+
+        <div id="result-screen" class="card hidden">
+            <h2>क्विज़ पूरा हुआ!</h2>
+            <div class="final-score" id="final-score">आपका स्कोर: 0 / 40</div>
+            <button onclick="restartQuiz()">फिर से प्रयास करें</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

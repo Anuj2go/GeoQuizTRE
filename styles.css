@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.quiz-container {
+    width: 100%;
+    max-width: 650px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+#question-text {
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.options-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.option-btn {
+    padding: 12px 15px;
+    border: 2px solid #bdc3c7;
+    background: #fff;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.option-btn {
+    padding: 12px 15px;
+    border: 2px solid #bdc3c7;
+    background: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 1rem;
+    color: #000000 !important; /* Text ko initial level par solid black karega */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.option-btn:hover:not([disabled]) {
+    background: #eef2f5;
+    border-color: #3498db;
+    color: #000000 !important;
+}
+
+/* Sahi aur galat answer select hone ke baad ka text aur background color */
+.option-btn.correct {
+    background-color: #d4edda !important;
+    border-color: #28a745 !important;
+    color: #155724 !important; /* Green text */
+}
+
+.option-btn.wrong {
+    background-color: #f8d7da !important;
+    border-color: #dc3545 !important;
+    color: #721c24 !important; /* Red text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.option-btn:hover:not([disabled]) {
+    background: #eef2f5;
+    border-color: #3498db;
+}
+
+.option-btn.correct {
+    background-color: #d4edda !important;
+    border-color: #28a745 !important;
+    color: #155724;
+}
+
+.option-btn.wrong {
+    background-color: #f8d7da !important;
+    border-color: #dc3545 !important;
+    color: #721c24;
+}
+
+.explanation {
+    background: #e8f4f8;
+    border-left: 4px solid #3498db;
+    padding: 12px;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    color: #2c3e50;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.final-score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #27ae60;
+}
