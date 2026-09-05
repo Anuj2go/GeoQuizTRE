@@ -138,40 +138,39 @@ button:hover {
 }
 /* App Top Header Styling */
 /* Dark Theme Compatible Header Header */
+
+/* App Fixed Top Header */
 .app-header {
+    position: sticky;
+    top: 10px; /* Screen ke top se 10px ki doori */
+    z-index: 1000; /* Baaki content ke upar rehne ke liye */
+    
     text-align: center;
     font-size: 0.88rem;
     font-weight: 500;
-    color: #e2e8f0; /* Light clean text */
-    background: rgba(255, 255, 255, 0.08); /* Modern Glassmorphism background */
-    backdrop-filter: blur(8px);
+    color: #e2e8f0;
+    background: rgba(30, 41, 59, 0.85); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Premium Blur effect jab content peeche scroll ho */
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 8px 16px;
     border-radius: 20px;
     margin: 0 auto 18px auto;
-    width: fit-content; /* Perfect width based on text length */
+    width: fit-content;
     max-width: 90%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     letter-spacing: 0.3px;
 }
 
 .app-header .heart {
-    color: #ff4757; /* Glowing soft red heart */
+    color: #ff4757;
     display: inline-block;
     margin: 0 3px;
     font-size: 0.95rem;
     animation: heartPulse 1.8s infinite ease-in-out;
 }
 
-/* Subtle Heartbeat Animation */
 @keyframes heartPulse {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.25); }
 }
-
-
-.app-header:hover .heart {
-    transform: scale(1.2); /* Hover par subtle heart zoom effect */
-}
-
-
