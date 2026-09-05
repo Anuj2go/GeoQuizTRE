@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geography Quiz</title>
+    <title>Online Quiz Portal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="quiz-container">
+        <!-- Start Screen -->
         <div id="start-screen" class="card active">
-            <h1>भूगोल (Geography) ऑनलाइन क्विज़</h1>
-            <p>कुल प्रश्न: 40 | सभी प्रश्नों के बाद रिजल्ट और व्याख्या देखें</p>
+            <h1>ऑनलाइन क्विज़ पोर्टल</h1>
+            <p>अपना क्विज़ सेट चुनें (10 प्रश्न प्रति सेट):</p>
+            
+            <select id="quiz-select">
+                <option value="geo_part1">भूगोल - सेट 1 (प्रश्न 1 से 10)</option>
+                <option value="geo_part2">भूगोल - सेट 2 (प्रश्न 11 से 20)</option>
+                <option value="geo_part3">भूगोल - सेट 3 (प्रश्न 21 से 30)</option>
+                <option value="geo_part4">भूगोल - सेट 4 (प्रश्न 31 से 40)</option>
+            </select>
+
             <button id="start-btn" onclick="startQuiz()">क्विज़ शुरू करें</button>
         </div>
 
+        <!-- Quiz Screen -->
         <div id="quiz-screen" class="card hidden">
             <div class="quiz-header">
-                <span id="question-number">प्रश्न 1 / 40</span>
+                <span id="question-number">प्रश्न 1 / 10</span>
                 <span id="score-counter">स्कोर: 0</span>
             </div>
             <h2 id="question-text">प्रश्न यहाँ दिखेगा...</h2>
@@ -25,9 +35,10 @@
             <button id="next-btn" class="hidden" onclick="nextQuestion()">अगला प्रश्न</button>
         </div>
 
+        <!-- Result Screen -->
         <div id="result-screen" class="card hidden">
             <h2>क्विज़ पूरा हुआ!</h2>
-            <div class="final-score" id="final-score">आपका स्कोर: 0 / 40</div>
+            <div class="final-score" id="final-score">आपका स्कोर: 0 / 10</div>
             <button onclick="restartQuiz()">फिर से प्रयास करें</button>
         </div>
     </div>

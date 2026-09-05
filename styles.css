@@ -36,6 +36,19 @@ h1, h2 {
     margin-bottom: 15px;
 }
 
+#quiz-select {
+    padding: 12px;
+    margin: 15px 0 25px 0;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 6px;
+    border: 2px solid #3498db;
+    outline: none;
+    background: #ffffff;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
 .quiz-header {
     display: flex;
     justify-content: space-between;
@@ -63,22 +76,11 @@ h1, h2 {
 .option-btn {
     padding: 12px 15px;
     border: 2px solid #bdc3c7;
-    background: #fff;
-    border-radius: 8px;
-    text-align: left;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.option-btn {
-    padding: 12px 15px;
-    border: 2px solid #bdc3c7;
     background: #ffffff;
     border-radius: 8px;
     text-align: left;
     font-size: 1rem;
-    color: #000000 !important; /* Text ko initial level par solid black karega */
+    color: #000000 !important; /* Text visible black */
     cursor: pointer;
     transition: all 0.2s ease;
     width: 100%;
@@ -90,47 +92,16 @@ h1, h2 {
     color: #000000 !important;
 }
 
-/* Sahi aur galat answer select hone ke baad ka text aur background color */
 .option-btn.correct {
     background-color: #d4edda !important;
     border-color: #28a745 !important;
-    color: #155724 !important; /* Green text */
+    color: #155724 !important;
 }
 
 .option-btn.wrong {
     background-color: #f8d7da !important;
     border-color: #dc3545 !important;
-    color: #721c24 !important; /* Red text */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.option-btn:hover:not([disabled]) {
-    background: #eef2f5;
-    border-color: #3498db;
-}
-
-.option-btn.correct {
-    background-color: #d4edda !important;
-    border-color: #28a745 !important;
-    color: #155724;
-}
-
-.option-btn.wrong {
-    background-color: #f8d7da !important;
-    border-color: #dc3545 !important;
-    color: #721c24;
+    color: #721c24 !important;
 }
 
 .explanation {
