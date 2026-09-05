@@ -174,3 +174,41 @@ button:hover {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.25); }
 }
+
+
+/* App Fixed Bottom Footer */
+.app-footer {
+    position: fixed;
+    bottom: 12px; /* Bottom se fixed spacing */
+    left: 50%;
+    transform: translateX(-50%); /* Bilkul center me align karne ke liye */
+    z-index: 1000;
+    
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #e2e8f0;
+    background: rgba(30, 41, 59, 0.88); /* Modern Glassmorphism background */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 8px 18px;
+    border-radius: 20px;
+    width: fit-content;
+    max-width: 90%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.3px;
+}
+
+.app-footer .heart {
+    color: #ff4757;
+    display: inline-block;
+    margin: 0 3px;
+    font-size: 0.9rem;
+    animation: heartPulse 1.8s infinite ease-in-out;
+}
+
+@keyframes heartPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.25); }
+}
