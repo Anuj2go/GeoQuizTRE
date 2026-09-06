@@ -621,8 +621,6 @@ const allQuizzes = {
     },
 
     /* economics questions */
-
-    {
     "eco_part1": {
         title: "अर्थशास्त्र - भाग 1 / Economics - Part 1 (Q. 1-10)",
         questions: [
