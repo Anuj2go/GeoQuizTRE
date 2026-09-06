@@ -47,11 +47,21 @@ function updateStaticUI() {
 }
 
 function startQuiz() {
+    // Check if allQuizzes is loaded in memory
+    if (typeof allQuizzes === 'undefined') {
+        alert(currentLang === 'hi' 
+            ? "क्विज़ डेटा की फ़ाइल (questions.js) सही तरीके से लोड नहीं हो पाई है!" 
+            : "Quiz data file (questions.js) is not loaded properly!");
+        return;
+    }
+
     const selectedKey = document.getElementById('quiz-select').value;
     
-    // Check if selected quiz exists in questions.js
+    // Check if selected quiz exists in allQuizzes
     if (!allQuizzes || !allQuizzes[selectedKey]) {
-        alert(currentLang === 'hi' ? "चुना गया क्विज़ उपलब्ध नहीं है!" : "Selected quiz set is not available!");
+        alert(currentLang === 'hi' 
+            ? "चुना गया क्विज़ उपलब्ध नहीं है!" 
+            : "Selected quiz set is not available!");
         return;
     }
 
@@ -65,7 +75,6 @@ function startQuiz() {
     
     showQuestion();
 }
-
 function showQuestion() {
     const q = currentQuizData[currentQuestionIndex];
     const isHi = (currentLang === 'hi');
