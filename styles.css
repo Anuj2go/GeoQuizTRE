@@ -140,26 +140,31 @@ button:hover {
 /* Dark Theme Compatible Header Header */
 
 /* App Fixed Top Header */
-.app-header {
-    position: sticky;
-    top: 10px; /* Screen ke top se 10px ki doori */
-    z-index: 1000; /* Baaki content ke upar rehne ke liye */
-    
+app-footer {
+    position: fixed;
+    bottom: 12px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    z-index: 1000;
+
     text-align: center;
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     font-weight: 500;
     color: #e2e8f0;
-    background: rgba(30, 41, 59, 0.85); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Premium Blur effect jab content peeche scroll ho */
+
+    background: rgba(30, 41, 59, 0.88);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+
     border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 8px 16px;
-    border-radius: 20px;
-    margin: 0 auto 18px auto;
-    width: fit-content;
-    max-width: 90%;
+    padding: 8px 18px;
+
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     letter-spacing: 0.3px;
+
+    white-space: nowrap;
 }
 
 .app-header .heart {
