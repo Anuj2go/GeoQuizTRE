@@ -518,5 +518,71 @@ const allQuizzes = {
                 explanation: "आर्थिक समीक्षा/बजट आंकड़ों के अनुसार गैर-ऋण कुल प्राप्तियों में लगभग 8% वृद्धि का अनुमान लगाया गया था।"
             }
         ]
-    }   
+    }
+    {
+    "geo_part1": {
+        title: "Geography - Part 1 (Questions 1-10)",
+        questions: [
+            {
+                question: "G-1. Which of the following is a vulnerable species in India?",
+                options: ["(A) Asian Elephant", "(B) Gangetic Dolphin", "(C) Blackbuck", "(D) More than one of the above", "(E) None of the above"],
+                correct: 0,
+                explanation: "According to NCERT, the Asian Elephant is classified as a vulnerable species, while the Gangetic Dolphin and Blackbuck are endangered."
+            },
+            {
+                question: "G-2. What is the major cause of depletion/destruction of forest resources in India?",
+                options: ["(A) Expansion of agriculture", "(B) Railways", "(C) Scientific forestry", "(D) More than one of the above", "(E) None of the above"],
+                correct: 0,
+                explanation: "Between 1951 and 1980, more than 26,200 square kilometres of forest area was converted into agricultural land."
+            },
+            {
+                question: "G-3. Who has promoted the development of new methods through traditional practices of ecological farming?",
+                options: ["(A) Save the Seed Movement", "(B) Navdanya", "(C) Tawa Matsya Sangh", "(D) More than one of the above", "(E) None of the above"],
+                correct: 3,
+                explanation: "Both the 'Save the Seed Movement' and 'Navdanya' have promoted ecological farming without the use of chemical fertilizers."
+            },
+            {
+                question: "G-4. The Sardar Sarovar Dam covers which of the following states?",
+                options: ["(A) Gujarat, Rajasthan, Maharashtra and Madhya Pradesh", "(B) Gujarat, Rajasthan, Maharashtra and Goa", "(C) Gujarat, Rajasthan, Maharashtra and Punjab", "(D) More than one of the above", "(E) None of the above"],
+                correct: 0,
+                explanation: "The Sardar Sarovar Dam, built on the Narmada River, meets the water and electricity requirements of these four states."
+            },
+            {
+                question: "G-5. Most river valley projects were constructed to control floods, but they made flood situations more severe because:",
+                options: ["(A) Excessive sediment accumulated in their reservoirs", "(B) Water had to be released from dams due to excessive rainfall", "(C) Floods caused extensive soil erosion", "(D) More than one of the above", "(E) None of the above"],
+                correct: 3,
+                explanation: "The accumulation of silt in reservoirs and the release of water during excessive rainfall are both major reasons."
+            },
+            {
+                question: "G-6. Name the first state that made rooftop rainwater harvesting compulsory by law.",
+                options: ["(A) Tamil Nadu", "(B) Rajasthan", "(C) Meghalaya", "(D) More than one of the above", "(E) None of the above"],
+                correct: 0,
+                explanation: "Tamil Nadu was the first state in India to make rainwater harvesting compulsory in every household."
+            },
+            {
+                question: "G-7. According to the Agriculture Report, 2017, India was the second-largest producer in the world of ____.",
+                options: ["(A) Rice", "(B) Cotton", "(C) Sugarcane", "(D) More than one of the above", "(E) None of the above"],
+                correct: 3,
+                explanation: "According to the 2017 report, India was the world's second-largest producer of both rice and sugarcane after China."
+            },
+            {
+                question: "G-8. Institutional reforms for the benefit of farmers included:",
+                options: ["(A) Land reforms", "(B) Establishment of rural banks", "(C) Kisan Credit Card Scheme", "(D) More than one of the above", "(E) None of the above"],
+                correct: 3,
+                explanation: "Land reforms, rural banks, and the Kisan Credit Card Scheme were all institutional efforts made for the benefit of farmers."
+            },
+            {
+                question: "G-9. Koderma in Jharkhand is a major producer of which mineral?",
+                options: ["(A) Bauxite", "(B) Mica", "(C) Iron", "(D) More than one of the above", "(E) None of the above"],
+                correct: 1,
+                explanation: "The Koderma-Gaya-Hazaribagh belt of Jharkhand is a leading producer of mica in India."
+            },
+            {
+                question: "G-10. Which is the only industry in India that is self-reliant and complete in its value chain?",
+                options: ["(A) Iron and Steel Industry", "(B) Textile Industry", "(C) Sugar Industry", "(D) More than one of the above", "(E) None of the above"],
+                correct: 1,
+                explanation: "The textile industry is self-reliant and complete from raw materials to the final product."
+            }
+        ]
+    }
 };
