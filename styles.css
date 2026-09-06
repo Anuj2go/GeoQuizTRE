@@ -12,11 +12,37 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 15px;
+    padding-bottom: 60px; /* Footer Overlap Prevention */
 }
 
 .quiz-container {
     width: 100%;
     max-width: 650px;
+}
+
+/* Language Switcher Styling */
+.lang-switcher {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+#lang-btn {
+    background: #ffffff;
+    border: 2px solid #3498db;
+    color: #3498db;
+    padding: 6px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+#lang-btn:hover {
+    background: #3498db;
+    color: #ffffff;
 }
 
 .card {
@@ -80,7 +106,7 @@ h1, h2 {
     border-radius: 8px;
     text-align: left;
     font-size: 1rem;
-    color: #000000 !important; /* Text visible black */
+    color: #000000 !important;
     cursor: pointer;
     transition: all 0.2s ease;
     width: 100%;
@@ -136,50 +162,6 @@ button:hover {
     margin: 20px 0;
     color: #27ae60;
 }
-/* App Top Header Styling */
-/* Dark Theme Compatible Header Header */
-
-/* App Fixed Top Header */
-app-footer {
-    position: fixed;
-    bottom: 12px;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-
-    z-index: 1000;
-
-    text-align: center;
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: #e2e8f0;
-
-    background: rgba(30, 41, 59, 0.88);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 8px 18px;
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    letter-spacing: 0.3px;
-
-    white-space: nowrap;
-}
-
-.app-header .heart {
-    color: #ff4757;
-    display: inline-block;
-    margin: 0 3px;
-    font-size: 0.95rem;
-    animation: heartPulse 1.8s infinite ease-in-out;
-}
-
-@keyframes heartPulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.25); }
-}
-
 
 /* App Fixed Bottom Footer */
 .app-footer {
@@ -188,24 +170,18 @@ app-footer {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-
     z-index: 1000;
-
     text-align: center;
     font-size: 0.85rem;
     font-weight: 500;
     color: #e2e8f0;
-
     background: rgba(30, 41, 59, 0.88);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-
     border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 8px 18px;
-
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     letter-spacing: 0.3px;
-
     white-space: nowrap;
 }
 
