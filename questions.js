@@ -619,6 +619,292 @@ const allQuizzes = {
             }
         ]
     },
+    
+    "geo_part5": {
+title: "भूगोल - भाग 1 / Geography - Part 1",
+questions: [
+{
+question: {
+hi: "G-1. किसी वस्तु को ‘संसाधन’ कब कहा जा सकता है?",
+en: "G-1. A thing can be termed a 'Resource' when it:"
+},
+options: {
+hi: [
+"(A) तकनीकी रूप से सुलभ हो",
+"(B) आर्थिक रूप से व्यवहार्य हो",
+"(C) सांस्कृतिक रूप से स्वीकार्य हो",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) Is technologically accessible",
+"(B) Is economically feasible",
+"(C) Is culturally acceptable",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 3,
+explanation: {
+hi: "संसाधन बनने के लिए किसी वस्तु का तकनीकी रूप से सुलभ, आर्थिक रूप से व्यवहार्य और सांस्कृतिक रूप से स्वीकार्य होना आवश्यक है। इसलिए A, B और C तीनों सही हैं।",
+en: "A resource must be technologically accessible, economically feasible and culturally acceptable. Therefore, A, B and C are all correct."
+}
+},
+{
+question: {
+hi: "G-2. निम्नलिखित में से कौन-सा संसाधनों के वर्गीकरण का सही आधार है?",
+en: "G-2. Which one of the following correctly represents the basis of classification of resources?"
+},
+options: {
+hi: [
+"(A) उत्पत्ति, क्षयशीलता, स्वामित्व और विकास की स्थिति",
+"(B) जलवायु, उच्चावच, मृदा और वनस्पति",
+"(C) जनसंख्या, प्रौद्योगिकी, संस्कृति और परंपराएँ",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) Origin, exhaustibility, ownership and status of development",
+"(B) Climate, relief, soil and vegetation",
+"(C) Population, technology, culture and traditions",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 0,
+explanation: {
+hi: "संसाधनों का वर्गीकरण उत्पत्ति, क्षयशीलता, स्वामित्व और विकास की स्थिति के आधार पर किया जाता है।",
+en: "Resources are classified on the basis of origin, exhaustibility, ownership and status of development."
+}
+},
+{
+question: {
+hi: "G-3. संसाधनों के संबंध में निम्नलिखित कथनों पर विचार कीजिए: 1. संसाधन प्रकृति के मुक्त उपहार हैं। 2. संसाधन मानव गतिविधियों का कार्य हैं। 3. मानव स्वयं संसाधनों के आवश्यक घटक हैं। सही कथन कौन-सा/से है/हैं?",
+en: "G-3. Consider the following statements about resources: 1. Resources are free gifts of nature. 2. Resources are a function of human activities. 3. Human beings themselves are essential components of resources. Which of the statements is/are correct?"
+},
+options: {
+hi: [
+"(A) केवल 1",
+"(B) केवल 2 और 3",
+"(C) केवल 1 और 3",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) 1 only",
+"(B) 2 and 3 only",
+"(C) 1 and 3 only",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 1,
+explanation: {
+hi: "संसाधन प्रकृति के मुक्त उपहार नहीं हैं। वे मानव गतिविधियों का कार्य हैं और मानव स्वयं संसाधनों के आवश्यक घटक हैं।",
+en: "Resources are not free gifts of nature. They are a function of human activities, and human beings themselves are essential components."
+}
+},
+{
+question: {
+hi: "G-4. निम्नलिखित में से कौन-सा सही सुमेलित है?",
+en: "G-4. Which of the following is correctly matched?"
+},
+options: {
+hi: [
+"(A) जैविक — चट्टानें",
+"(B) अजैविक — जंतु",
+"(C) नवीकरणीय — सौर ऊर्जा",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) Biotic — Rocks",
+"(B) Abiotic — Animals",
+"(C) Renewable — Solar energy",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 2,
+explanation: {
+hi: "सौर ऊर्जा नवीकरणीय संसाधन है। चट्टानें अजैविक और जंतु जैविक संसाधन हैं।",
+en: "Solar energy is a renewable resource. Rocks are abiotic, while animals are biotic."
+}
+},
+{
+question: {
+hi: "G-5. स्वामित्व के आधार पर संसाधनों को किन श्रेणियों में बाँटा जाता है?",
+en: "G-5. Resources are classified on the basis of ownership into:"
+},
+options: {
+hi: [
+"(A) व्यक्तिगत, सामुदायिक और राष्ट्रीय",
+"(B) सामुदायिक, राष्ट्रीय और अंतर्राष्ट्रीय",
+"(C) व्यक्तिगत, सामुदायिक, राष्ट्रीय और अंतर्राष्ट्रीय",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) Individual, Community and National",
+"(B) Community, National and International",
+"(C) Individual, Community, National and International",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 2,
+explanation: {
+hi: "स्वामित्व के आधार पर संसाधन व्यक्तिगत, सामुदायिक, राष्ट्रीय और अंतर्राष्ट्रीय होते हैं।",
+en: "Ownership categories are individual, community, national and international."
+}
+},
+{
+question: {
+hi: "G-6. संसाधनों के अंधाधुंध दोहन से निम्नलिखित में से कौन-सी समस्याएँ उत्पन्न होती हैं?",
+en: "G-6. Which of the following are major problems caused by indiscriminate exploitation of resources?"
+},
+options: {
+hi: [
+"(A) संसाधनों का ह्रास",
+"(B) कुछ लोगों के हाथों में संसाधनों का संकेन्द्रण",
+"(C) वैश्विक पारिस्थितिक संकट",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) Depletion of resources",
+"(B) Accumulation of resources in a few hands",
+"(C) Global ecological crises",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 3,
+explanation: {
+hi: "अंधाधुंध उपयोग से संसाधनों का ह्रास, कुछ हाथों में संकेन्द्रण और वैश्विक पारिस्थितिक संकट उत्पन्न होते हैं।",
+en: "Indiscriminate use causes depletion, concentration of resources and global ecological crises."
+}
+},
+{
+question: {
+hi: "G-7. निम्नलिखित में से कौन-सा अध्याय में उल्लिखित वैश्विक पारिस्थितिक संकट नहीं है?",
+en: "G-7. Which of the following is NOT a global ecological crisis mentioned in the chapter?"
+},
+options: {
+hi: [
+"(A) वैश्विक तापन",
+"(B) ओजोन परत का क्षरण",
+"(C) भूमि निम्नीकरण",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) Global warming",
+"(B) Ozone layer depletion",
+"(C) Land degradation",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 4,
+explanation: {
+hi: "वैश्विक तापन, ओजोन परत का क्षरण और भूमि निम्नीकरण—तीनों अध्याय में वैश्विक पारिस्थितिक संकट के रूप में उल्लिखित हैं।",
+en: "Global warming, ozone layer depletion and land degradation are all mentioned as ecological crises."
+}
+},
+{
+question: {
+hi: "G-8. सतत आर्थिक विकास का अर्थ है:",
+en: "G-8. Sustainable economic development means:"
+},
+options: {
+hi: [
+"(A) पर्यावरण को नुकसान पहुँचाए बिना और भविष्य की पीढ़ियों की आवश्यकताओं से समझौता किए बिना विकास",
+"(B) वर्तमान विकास के लिए प्राकृतिक संसाधनों का अधिकतम दोहन",
+"(C) केवल औद्योगीकरण के माध्यम से विकास",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) Development without damaging the environment and without compromising the needs of future generations",
+"(B) Maximum exploitation of natural resources for present development",
+"(C) Development only through industrialisation",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 0,
+explanation: {
+hi: "सतत विकास पर्यावरण को नुकसान पहुँचाए बिना वर्तमान और भविष्य की पीढ़ियों की आवश्यकताओं के बीच संतुलन बनाए रखता है।",
+en: "Sustainable development protects the environment without compromising the needs of future generations."
+}
+},
+{
+question: {
+hi: "G-9. रियो डी जेनेरो पृथ्वी सम्मेलन किस वर्ष आयोजित हुआ था?",
+en: "G-9. The Rio de Janeiro Earth Summit was held in:"
+},
+options: {
+hi: [
+"(A) 1968",
+"(B) 1974",
+"(C) 1987",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) 1992"
+],
+en: [
+"(A) 1968",
+"(B) 1974",
+"(C) 1987",
+"(D) More than one of the above",
+"(E) 1992"
+]
+},
+correct: 4,
+explanation: {
+hi: "रियो डी जेनेरो पृथ्वी सम्मेलन जून 1992 में आयोजित हुआ था।",
+en: "The Rio de Janeiro Earth Summit was held in June 1992."
+}
+},
+{
+question: {
+hi: "G-10. एजेंडा 21 के संबंध में निम्नलिखित कथनों पर विचार कीजिए: 1. इसका उद्देश्य वैश्विक सतत विकास है। 2. इसे रियो डी जेनेरो में अपनाया गया। 3. प्रत्येक स्थानीय सरकार को अपना स्थानीय एजेंडा 21 तैयार करना चाहिए। सही कथन कौन-सा/से है/हैं?",
+en: "G-10. Which of the following statements regarding Agenda 21 is/are correct? 1. It aims at global sustainable development. 2. It was adopted at Rio de Janeiro. 3. Every local government should draw its own Local Agenda 21."
+},
+options: {
+hi: [
+"(A) केवल 1",
+"(B) केवल 1 और 2",
+"(C) 1, 2 और 3",
+"(D) उपयुक्त में से एक से अधिक",
+"(E) उपयुक्त में से कोई नहीं"
+],
+en: [
+"(A) 1 only",
+"(B) 1 and 2 only",
+"(C) 1, 2 and 3",
+"(D) More than one of the above",
+"(E) None of the above"
+]
+},
+correct: 2,
+explanation: {
+hi: "एजेंडा 21 वैश्विक सतत विकास के लिए है, रियो में अपनाया गया और प्रत्येक स्थानीय सरकार के लिए स्थानीय एजेंडा 21 की बात करता है।",
+en: "Agenda 21 aims at global sustainable development, was adopted at Rio, and calls for each local government to prepare its own Local Agenda 21."
+}
+}
+]
+}, 
+
+
+
+
+
+
+
+
+
+    
 
     /* economics questions */
     "eco_part1": {
